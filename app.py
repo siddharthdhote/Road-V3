@@ -31,7 +31,7 @@ def predict(fullpath):
     # (226,226,3) ==> (1,226,226,3)
     data = np.expand_dims(data, axis=0)
     # Scaling
-    # data = data.astype('float') / 255
+    data = data.astype('float')
 
     # Prediction
 
