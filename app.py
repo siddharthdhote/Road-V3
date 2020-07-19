@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Python 3.8.4 (tags/v3.8.4:dfa645a, Jul 13 2020, 16:30:28) [MSC v.1926 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
->>> import os
+import os
 from flask import Flask, render_template, request, send_from_directory
 from keras_preprocessing import image
 from keras.models import load_model
